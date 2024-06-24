@@ -1,0 +1,111 @@
+body {
+    background-color: rgba(24, 24, 24, 1);
+    font-family: Arimo;
+    font-weight: 400px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.info-list {
+    margin: 80px 0 20px 73px;
+    display: flex;
+    
+}
+
+.info-list__title, 
+.info-list__dt {
+    padding: 10px 20px;
+    color: white;
+    background-color:  rgba(101, 50, 248, 1);
+    border-radius: 200px;
+    font-size: 15px;
+    line-height: 17px;
+}
+
+.title {
+    margin-left: 74px;
+    margin-bottom: 45px;
+    font-size: 120px;
+    line-height: 138px;
+    color: white;
+}
+
+.wrapper-films {
+    padding: 60px 70px;
+    width: 930px;
+    background-color: rgba(35, 35, 35, 1);
+    border-radius: 20px;
+}
+
+.input__film {
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+    width: 411px;
+    border: none;
+    border-bottom: 1px solid rgba(58, 57, 57, 1);
+    background-color: rgba(35, 35, 35, 1);
+    color: white;
+    outline: none;
+    font-size: 30px;
+}
+
+.add-btn {
+    width: 62px;
+    height: 62px;
+    background-color: rgba(101, 50, 248, 1);
+    border: none;
+    border-radius: 50%;
+}
+
+.add-btn__img {
+    padding-top: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+li {
+    padding: 27px 20px;
+    display: flex;
+    margin-bottom: 3px;
+    background-color: rgba(58, 57, 57, 1);
+    height: 71px;
+    width: 790px;
+    border-radius: 10px;
+    color: rgb(188, 166, 254);
+    font-size: 20px;
+}
+
+.circle {
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid rgb(188, 166, 254);
+    cursor: pointer;
+}
+
+.circle.checked {
+    background-color: rgba(101, 50, 248, 1);
+}
+
+.movie-title {
+    flex-grow: 1;
+}
+
+.movie-title.watched {
+    text-decoration: line-through;
+    color: rgba(101, 50, 248, 1);
+}
+
+.close {
+    margin-top: -5px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #fff;
+}
